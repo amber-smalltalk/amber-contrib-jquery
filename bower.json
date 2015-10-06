@@ -23,10 +23,11 @@
     "tests"
   ],
   "dependencies": {
-    "amber": "*",
+    "amber": ">=0.14.1",
     "jquery": ">=1.7.0"
   },
   "devDependencies": {
+    "amber": ">=0.14.4",
     "amber-ide-starter-dialog": "^0.1.0",
     "amber-contrib-legacy": "^0.2.0",
     "helios": ">=0.4.3"
