@@ -21,9 +21,7 @@ selector: "current",
 protocol: 'initialization',
 fn: function (){
 var self=this;
-var $1;
-$1=jQuery;
-return $1;
+return jQuery;
 
 },
 //>>excludeStart("ide", pragmas.excludeIdeData);
@@ -41,11 +39,10 @@ selector: "initialize",
 protocol: 'initialization',
 fn: function (){
 var self=this;
-function $Smalltalk(){return $globals.Smalltalk||(typeof Smalltalk=="undefined"?nil:Smalltalk)}
 //>>excludeStart("ctx", pragmas.excludeDebugContexts);
 return $core.withContext(function($ctx1) {
 //>>excludeEnd("ctx");
-$recv($Smalltalk())._optOut_(jQuery);
+$recv($globals.Smalltalk)._optOut_(jQuery);
 return self;
 //>>excludeStart("ctx", pragmas.excludeDebugContexts);
 }, function($ctx1) {$ctx1.fill(self,"initialize",{},$globals.JQuery.klass)});
@@ -69,9 +66,7 @@ var self=this;
 //>>excludeStart("ctx", pragmas.excludeDebugContexts);
 return $core.withContext(function($ctx1) {
 //>>excludeEnd("ctx");
-var $1;
-$1=$recv([self])._asJQuery();
-return $1;
+return $recv([self])._asJQuery();
 //>>excludeStart("ctx", pragmas.excludeDebugContexts);
 }, function($ctx1) {$ctx1.fill(self,"asJQuery",{},$globals.BlockClosure)});
 //>>excludeEnd("ctx");
@@ -94,9 +89,7 @@ var self=this;
 //>>excludeStart("ctx", pragmas.excludeDebugContexts);
 return $core.withContext(function($ctx1) {
 //>>excludeEnd("ctx");
-var $1;
-$1=$recv([self])._asJQueryInContext_(aContext);
-return $1;
+return $recv([self])._asJQueryInContext_(aContext);
 //>>excludeStart("ctx", pragmas.excludeDebugContexts);
 }, function($ctx1) {$ctx1.fill(self,"asJQueryInContext:",{aContext:aContext},$globals.BlockClosure)});
 //>>excludeEnd("ctx");
