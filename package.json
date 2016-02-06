@@ -1,6 +1,6 @@
 {
   "name": "amber-contrib-jquery",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Amber Smalltalk wrapper around jQuery",
   "main": "local.amd.json",
   "scripts": {
