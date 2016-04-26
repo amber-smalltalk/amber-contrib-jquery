@@ -6,7 +6,7 @@ Fromerly part of core Amber, now extracted to own repository.
 MOVED
 ====
 
-Amber is now at https://lolg.it/amber/amber-contrib-jquery.
+Now at https://lolg.it/amber/amber-contrib-jquery.
 
 .
 
